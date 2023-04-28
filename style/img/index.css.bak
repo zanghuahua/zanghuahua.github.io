@@ -1,0 +1,445 @@
+﻿h1{ font-size:20px;}
+h2{ font-size:18px;}
+h3{font-size:20px; color:#072569; font-weight:bold;}
+h4{font-size:16px;font-weight:bold;}
+/*头部*/
+.header{ margin:15px auto;	 width:1000px;height:50px;}
+.logo{ width:180px; height:50px; margin-right:6px;}
+.logo-txt{ width:150px; margin-right:220px; padding-top:31px; color:#8a8a8a; font-size:14px;}
+.search{ width:230px; height:34px; margin-top:15px;}
+.input{
+	float:left;
+	height:32px; 
+	width:160px;
+	border:#CCC 1px solid;
+	border-right:none;
+	white-space: nowrap;
+	-moz-border-radius:2px;  
+    -webkit-border-radius:2px;  
+    border-radius:2px; 
+	 }
+.submit{
+	width:60px; height:34px; float:left;
+	background-color:#F00;
+	font-size:16px;
+	font-family:"黑体";
+	color:#FFF;
+	border:none;
+	}
+#search_change{
+	position:relative; 
+	width:60px; height:34px; top:15px; 
+	margin-right:10px;
+	border:#CCC 1px solid;
+	font-size:14px;
+    -moz-border-radius:2px;  
+    -webkit-border-radius:2px;  
+    border-radius:2px; 
+	}
+#bdcs{ float:left; width:230px; height:34px;margin-top: 14px;}
+
+/*导航*/
+.nav{ width:100%; height:40px; background-color:#304E80;}
+.nav-main{ margin:0px auto; width:1000px;background-color: #304E80;}
+.nav-main ul{ width:910px; height:40px; float:left;}
+.nav-main ul li{
+	 float:left; width:60px; text-align:center; 
+	 color:#FFF;
+	 padding-top:10px;
+	 cursor:pointer;
+	 }
+.nav-main ul li a{ color:#FFF;}
+.nav-main ul li a:hover{text-decoration: none;}
+.nav-main ul li:hover{
+	 background-color:#0C2959;
+	 height:40px;
+	 }
+
+.nav-qy{ margin:10px auto; width:1000px;}
+.nav-qy ul{}
+.nav-qy ul li{
+	float:left; height:20px; width:63px; text-align:center; 
+	font-family:"宋体"; font-size:12px;
+	color:#666;
+	}
+.nav-qy ul li a{ color:#999;}
+.email,.weibo{background:url(http://img.chinadevelopment.com.cn/templates/chinadevelopment/images/fzw/weibo.png) no-repeat 0 0;
+width:30px; height:20px; float:right; cursor:pointer;}
+.email{ background-position:0 -37px; }
+.email a{ width:16px; height:16px;}
+.weibo{ background-position:0 1px;}
+.weibo a{ width:16px; height:16px;}
+/*微信侧边栏*/
+.weixin{
+	position:absolute;
+	width:70px;
+	margin:100px auto;
+	top:60px;
+	left:50%;
+	margin-left:520px;
+	font-size:12px;font-family:"宋体";
+	text-align:center;
+	}
+.weixin1{ width:70px; }
+.weixin1 dl{ margin-bottom:10px;}
+.weixin1 dl dt{ height:20px;}
+.weixin2{ width:70px;}
+.weixin2 dl{margin-bottom:10px;}
+.weixin2 dl dt{ height:30px;}
+.weixin3{ width:70px;  display:none;}
+.weixin3 dl{margin-bottom:10px;}
+.weixin3 dl dt{ height:20px;}
+.weixin-ckqb{
+	 width:70px; height:34px; 
+	 background-image:url(http://img.chinadevelopment.com.cn/templates/chinadevelopment/images/fzw/index_r2_c2.jpg);
+	 background-repeat:no-repeat;
+	 background-position:center;
+	 cursor:pointer;
+	 }
+
+
+/*广告*/
+.ad1{ width:1000px; height:90px; margin:10px 0 15px 0;}
+.ad2{ width:1000px; height:90px; margin:20px 0 20px 0;}
+
+/*文字广告*/
+.wzad{ font-size:12px; height:90px; color:#f8f8f8; padding:10px 0 10px 0; width:1000px; border:#e7e7e7 solid 1px; background-color:#f8f8f8; margin-top:10px; margin-bottom:20px;}
+.wzad ul {}
+.wzad ul li a{ line-height:16px; width:150px; float:left; height:24px; line-height:24px; overflow:hidden; margin-left:15px; color:#7B7A7A;}
+	
+/*主内容区*/
+
+/*主内容区 头条*/
+.toutiao{ width:350px;  margin-right:25px; float:left;}
+.toutiao a{color:#000;}
+.toutiao1{ color:#FFF; height:435px;width:100%; margin-bottom:20px;background-color:#304E80;}
+.toutiao1 h1{
+	background-image:url(http://img.chinadevelopment.com.cn/templates/chinadevelopment/images/fzw/index_r12_c4_s1.jpg);
+	background-repeat:no-repeat;
+	background-position:0 20px;
+	height:45px; 
+	font-size:20px;
+	line-height:22px;
+	padding:20px 0 20px 60px;
+	overflow:hidden;
+	width:289px;
+	}
+.toutiao1 img{}
+.toutiao1 p{
+	line-height:24px;
+	margin-left:1px;
+	font-size:14px;
+	height:111px;
+	padding:5px 10px 0 10px;
+	}
+.toutiao1-key { font-size:12px; width:200px; float:left; height:20px;padding-left:10px;}
+.toutiao1-key li{ padding:5px 10px 0 0; float:left;}
+
+.toutiao1-fx {font-size:12px; width:128px;float:left;height:16px; line-height:16px;}
+.toutiao1-fx li{ float:left;height:16px; margin-top:5px; text-align:center;}
+
+.toutiao2{width:349px;margin-left:1px; height:115px;background-color:#304E80;color:#FFF; }
+.toutiao2-title{ padding:10px 10px 0 10px; margin-bottom:5px; line-height:30px;}
+.toutiao2-title em{ display:inline-block;width:30px; height:22px; margin-left:5px; background:url(http://img.chinadevelopment.com.cn/templates/chinadevelopment/images/fzw/weibo.png) no-repeat 0 -58px;}
+
+.toutiao2-dy{ width:51px; height:31px; margin-right:5px; margin-top:15px; background:url(http://img.chinadevelopment.com.cn/templates/chinadevelopment/images/fzw/img.jpg) no-repeat;}
+.toutiao2-txt{ margin-top:15px;font-size:14px; }
+.toutiao2-txt p{ margin-bottom:5px;}
+
+.fx-b1,.fx-b2,.fx-b3,.fx-h1,.fx-h2,.fx-h3{background:url(http://img.chinadevelopment.com.cn/templates/chinadevelopment/images/fzw/fx11.png) no-repeat 0 0; }
+.fx-b1{width:23px; cursor:pointer; background-position:0 2px;}
+.fx-b2{width:20px; padding-left:20px; padding-right:10px; background-position:0 -16px;}
+.fx-b3{width:20px; padding-left:20px; background-position:0 -32px;cursor:pointer;}
+.fx-h1{width:23px; cursor:pointer; background-position:0 -48px;}
+.fx-h2{width:20px; padding-left:20px; padding-right:10px; background-position:0 -68px;}
+.fx-h3{width:20px; padding-left:20px; background-position:0 -86px; cursor:pointer;}
+
+.fgwsf1-fx .fx-h3{ padding-top:2px;} 
+
+/*主内容区 幻灯片*/
+.slider {
+	float:left;
+	width: 625px;
+}
+.slider-container {
+	
+	margin: 0 auto 10px;
+	overflow: hidden;
+	position: relative;
+	width: 625px;
+}
+.slider-container .slider-wrapper {
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	width: 5000em; /*Fix for prevent display errors*/
+	-webkit-transition: all 800ms ease;
+	-moz-transition: all 800ms ease;
+	-o-transition: all 800ms ease;
+	transition: all 800ms ease;
+}
+.slider-container .slide {
+	float: left;
+	height: 570px;
+	overflow: hidden;
+	position: relative;
+	width: 625px;
+}
+.slider-nav {
+	text-align: center;
+	width: 625px;
+	position:relative;
+}
+.slider-nav li {
+	display: inline;
+	padding: 3px;
+}
+.slider-nav .bullet {
+	background-color:#CECECE;
+	border-radius: 50%;
+	display: inline-block;
+	text-indent: -9000px;
+	overflow: hidden;
+	height: 14px;
+	width: 14px;
+}
+.slider-nav .active {
+	background-color: #000;
+}
+.slider-nav .prev, .slider-nav .next {
+	background: url(http://img.chinadevelopment.com.cn/templates/chinadevelopment/css/cmstop1.8/images/ico40x40.png) no-repeat;
+	text-indent: -9000px;
+	overflow: hidden;
+	height: 80px;
+	width: 50px;
+	position:absolute;
+	top: -333px;
+	filter: alpha(Opacity=40);
+    opacity: .4;
+	background-color: #000;
+}
+.slider-nav .prev {
+	background-position: -16px -1712px;
+	left: 0px;
+}
+.slider-nav .prev:hover,.slider-nav .next:hover {
+	background-color: #000;
+	filter: alpha(Opacity=80);
+    opacity: .8;
+}
+.slider-nav .next {
+	background-position: -18px -1556px;
+	right: 0px;
+}
+
+/*往期精选*/
+.wqjx{ position:relative; padding-left:10px; font-size:14px; top:-3px;}
+
+/*slide1*/
+.slide1-wrapper1{ width:300px; margin-right:25px; float:left;}
+.slide1-wrapper2{ width:300px;float:left;}
+
+.slide1-key { font-size:12px; width:155px; float:left; height:20px; color:#707070;}
+.slide1-key li{ padding:0 10px 0 0; float:left;}
+
+.slide1-fx {font-size:12px; width:120px;float:left;height:16px; line-height:16px;color:#707070;}
+.slide1-fx li{ float:left;height:16px;text-align:center;}
+
+.slide1-3 .slide1-key,.slide1-4 .slide1-key{ padding-left:10px;}
+
+.slide1-1,.slide1-2,.slide1-3,.slide1-4{border: #e0e0e0 solid 1px;}
+.slide1-title,.slide1-title2{ height:58px;}
+.slide1-title a{font-size:18px; color:#072569; line-height:22px;}
+.slide1-title2 a{font-size:18px; color:#072569; line-height:20px;}
+.slide1-1 p a,.slide1-2 p a,.slide1-3 p a,.slide1-4 p a{ color:#707070; font-size:12px; overflow:hidden;}
+.slide1-1 p a:hover,.slide1-2 p a:hover,.slide1-3 p a:hover,.slide1-4 p a:hover{ text-decoration:none;color:#cd0200;}
+.slide1-2 a img{ margin:8px 0 8px 0;}
+.slide1-3 a img{ margin:10px;}
+.slide1-1 p,.slide1-4 p{ margin-top:5px;}
+.slide1-3 p,.slide1-4 p{ padding:0 10px 0 10px;}
+
+.slide1-title2{ line-height:18px; background:url(http://img.chinadevelopment.com.cn/templates/chinadevelopment/images/fzw/index_r13_c17_s1.jpg) no-repeat 0 0; padding-left:60px; margin-top:10px;}
+
+.slide1-1{ height:166px; padding:10px;width:278px;}
+.slide1-2{ height:340px; padding:10px;width:278px;}
+.slide1-3{ height:360px; width:298px;}
+.slide1-4{ height:186px; width:298px;}
+
+/*发改委首发*/
+.fgwsf{ float:left; height:360px; width:660px; border-top:#304E80 solid 2px; margin-right:15px; position:relative;}
+.fgwsf1{width:660px;}
+.fgwsf1-top { height:40px; margin-top:10px; }
+.fgwsf1-top li{ }
+.fgwsf1-top1,.fgwsf1-top3 { color:#072569; overflow:hidden;float:left;}
+.fgwsf1-top1 a{ font-size:20px; color:#072569;font-weight:bold;}
+.fgwsf1-top2{ width:20px; text-align:center;float:left;}
+.fgwsf1-top3 { font-size:16px; padding-top:2px;font-weight:bold;}
+.fgwsf1-top4,.zj-top4,.zk-top4,.cy-top4,.ny-top4 { width:42px; font-size:14px; color:#2b365d; cursor:pointer; float:right;}
+.fgwsf1-title{}
+.fgwsf1-title dt { height:30px;font-size:18px; float:left;}
+
+.fgwsf1-title dt span{ font-size:12px; height:25px; color:#7a7a7a; margin-left:10px;}
+.fgwsf1-title dt img{ margin-left:10px;}
+.fgwsf1-content{ width:660px; height:130px; border-bottom:dashed #999999 1px; margin-bottom:10px; padding-top:10px; clear:both;}
+.fgwsf1-content img{ float:left; width:170px; margin-right:10px;}
+.fgwsf1-content p{ float:left; font-size:14px; line-height:24px; height:100px; width:470px;}
+.fgwsf1-content p a{ text-decoration:none;color:#6B6B6B;}
+.fgwsf1-content p a:hover{ color:#cd0200;}
+.fgwsf1-content ul{ float:right;font-size:12px; height:16px;}
+.fgwsf1-content ul a{ font-size:12px;}
+.fgwsf1-content ul a:hover{ color:#cd0200;}
+.fgwsf1-key { width:350px;}
+.fgwsf1-key  li{ float:left; padding-right:10px; line-height:12px;}
+.fgwsf1-fx { width:120px; float:right;}
+.fgwsf1-fx  li{ float:left; height:16px; line-height:12px;text-align:center;}
+.fgwsf1-fx  li span{position:relative;top:2px;}
+.fgw-item{ line-height:30px;font-size:18px; clear:both;}
+
+.fgw-hyh{ width:280px; height:100px; padding:10px 0 10px 10px; position: absolute;border:#CCC solid 1px; top:40px; left:370px; display:none;
+    background-color:#FFF;  
+}
+.fgw-hyh-zj{height:130px;}
+.fgw-hyh dl{ height:20px;}
+.fgw-hyh dl dt{ width:210px; float:left; font-size:14px; cursor:pointer;}
+.fgw-hyh dl dd{ width:25px; float: right;cursor:pointer;}
+.fgw-hyh ul { margin-top:8px;}
+.fgw-hyh ul li{ float:left; border:#e1e5f6 solid 1px; margin:10px 10px 0px 0; text-align:center; color:#FFF;}
+.fgw-hyh ul li.on{ background-color:#a2acbe;}
+.fgw-hyh1,.fgw-hyh2,.fgw-hyh3{ font-size:12px; cursor:pointer; width:75px; padding:3px 3px 3px 3px; background-color:#76a7d6; }
+.fgw-hyh1:hover,.fgw-hyh2:hover,.fgw-hyh3:hover{ background-color:#21578d;}
+.fgw-hyh1{ }
+.fgw-hyh2{ }
+
+/*热搜词*/
+.rsc{ width:325px; height:250px; float:left; }
+.rsc-nav{border:#dfe4ec solid 1px; border-left:none; width:323px; height:48px;}
+.rsc-nav ul{ font-size:18px; display:block; height:48px;}
+.rsc-nav ul li{ height:39px; width:120px; border-left:#dfe4ec solid 1px; color:#072569; text-align:center; padding-top:10px; float:left;}
+.rsc-nav ul li.on{ background-color:#FFF; border-right:#dfe4ec solid 1px;}
+.rsc-nav ul li:first-child{border-right: none;}
+.rsc-c{ width:325px; height:190px;}
+.rsc-c tr { vertical-align:middle; text-align:center;color:#FFF;}
+.rsc-c tr td a{ color:#FFF;}
+.rsc-c .bj1{ background-color:#008fe8;}
+.rsc-c .bj2{background-color:#0060b2;}
+.rsc-c .c1-1{ width:36%;}
+.rsc-c .c1-2{ width:30%;}
+.rsc-c .c1-3{ width:30%;}
+
+/*排行*/
+.zgph{ cursor:pointer;}
+.gdph{ cursor:pointer;}
+.zgph-l{}
+.zgph-l ul{}
+.zgph-l ul li{ padding-left:40px; line-height:30px; font-size:14px; width:280px;overflow:hidden;}
+.zgph-l ul li a{ color:#737373;}
+.zgph-l ul li a:hover{ color:#cd0200;}
+.zgph1,.zgph2,.zgph3,.zgph4,.zgph5,.zgph6,.zgph7,.zgph8,.zgph9,.zgph10{width:20px;background:url(http://img.chinadevelopment.com.cn/templates/chinadevelopment/images/fzw/rank.png) no-repeat 0 0;}
+.zgph1{ background-position:0 7px; }
+.zgph2{ background-position:0 -23px; }
+.zgph3{background-position:0 -53px;}
+.zgph4{background-position:0 -84px;}
+.zgph5{background-position:0 -114px;}
+.zgph6{background-position:0 -144px;}
+.zgph7{background-position:0 -174px;}
+.zgph8{background-position:0 -204px;}
+.zgph9{background-position:0 -234px;}
+.zgph10{background-position:0 -264px;}
+
+/*中国债市*/
+.zgzs-l{}
+.zgzs-l ul{}
+.zgzs-l ul li{ padding-left:20px; line-height:30px; font-size:14px; width:300px; overflow:hidden;}
+.zgzs-l ul li a{ color:#737373;}
+.zgzs-l ul li a:hover{ color:#cd0200;}
+
+/*中国价格*/
+.zgjg-l{}
+.zgjg-l ul{}
+.zgjg-l ul li{ padding-left:20px; line-height:30px; font-size:14px; width:300px; overflow:hidden;}
+.zgjg-l ul li a{ color:#737373;}
+.zgjg-l ul li a:hover{ color:#cd0200;}
+
+/*图片视觉*/
+.tpsj{ border-top:#304E80 solid 2px; margin-bottom:20px; height:200px; position:relative;}
+.tpsj h3{ margin-top:10px; margin-bottom:10px;}
+.tpsj h3 a{ font-size:20px; color:#072569; font-weight:bold;}
+.tpsj .item{ width:184px; height:128px; position:absolute;}
+.tpsj .text{
+	width:184px; 
+	height:128px;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	left: 0;
+	top: 0;
+	text-align: center;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.tpsj .text a{
+	color: #fff;
+	display: block;
+	line-height: 24px;
+	margin: 8px;
+}
+.tpsj .a1{ left:0;top:60px;width:184px; height:128px;}
+.tpsj .a2{ left:204px; top:60px;width:184px; height:128px;}
+.tpsj .a3{ left:408px; top:60px;width:184px; height:128px;}
+.tpsj .a4{ left:612px; top:60px;width:184px; height:128px;}
+.tpsj .a5{ left:816px; top:60px;width:184px; height:128px;}
+
+/*返回顶部*/
+.scroll-btns {
+    position:fixed;
+	left:50%;
+	margin-left:520px;
+    bottom: -210px;
+    overflow: hidden;
+    transition:bottom 0.9s;
+    -webkit-transition:bottom 0.9s;
+    -moz-transition:bottom 0.9s;
+    -o-transition:bottom 0.9s;
+}
+.scroll-btns .btn {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    overflow: hidden;
+	border: 1px solid #ddd;
+    background-color: #f3f3f3;
+}
+
+.scroll-btns .btn .text {
+    text-align: center;
+    font-size: 12px;
+    width: 30px;
+    margin-left: 15px;
+    padding-top: 15px;
+    height: 60px;
+    display: none;
+}
+.scroll-btns .home {
+    background-position: -10px -1190px;
+}
+.scroll-btns .rel {
+    background-position: -10px -1258px;
+}
+.scroll-btns .top {
+    background-position: -10px -1320px;
+}
+.scroll-btns .btn .text {
+    color: #777;
+}
+.icon40x40 {
+    background-image: url(http://img.chinadevelopment.com.cn/templates/chinadevelopment/images/fzw/ico40x40.png);
+    background-repeat: no-repeat;
+	background-position:0 -1300px;
+}
+
+@media screen and (max-width:1000px){
+  .weixin{ display:none;}
+  .container{ padding-left:10px;}
+  .footer-c,.nav-main{ width:1010px;}
+}
